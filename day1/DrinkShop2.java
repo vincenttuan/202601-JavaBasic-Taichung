@@ -8,6 +8,10 @@ public class DrinkShop2 {
 		blackTea();
 		System.out.println("----------");
 		coffee();
+		System.out.println("----------");
+		milkTea();
+		System.out.println("----------");
+		latte();
 	}
 
 	// 自訂製作紅茶的方法
@@ -17,7 +21,6 @@ public class DrinkShop2 {
 		System.out.println("加入紅茶");
 		System.out.println("無糖");
 		System.out.println("去冰");
-		System.out.println("封口");
 	}
 
 	// 自訂製作咖啡的方法
@@ -37,6 +40,18 @@ public class DrinkShop2 {
 		System.out.println("加入奶粉");
 		System.out.println("加入熱水");
 		System.out.println("攪拌均勻");
+	}
+
+	// 自訂製作奶茶
+	static void milkTea() {
+		blackTea();
+		milk();
+	}
+
+	// 自訂製作拿鐵
+	static void latte() {
+		coffee();
+		milk();
 	}
 
 }
