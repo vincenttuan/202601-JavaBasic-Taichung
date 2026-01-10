@@ -18,7 +18,8 @@ public class Main3 {
 
 		System.out.printf("半徑 %d 圓面積 %f 平方單位%n", r, area);
 		System.out.printf("半徑 %d 球體積 %f 立方單位%n", r, volume);
-
+		System.out.printf("半徑 %d 球體積 %,.1f 立方單位%n", r, volume);
+		System.out.printf("半徑 %d 球體積 %,.2f 立方單位%n", r, volume);
 	}
 
 }
