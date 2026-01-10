@@ -19,6 +19,14 @@ public class Main9 {
 		int cash = sc.nextInt(); // 取得使用者所輸入的數字
 		
 		int change = cash - tao; // 應找 778
+
+		// 判斷金額是否足夠
+		if(change >= 0) {
+			System.out.println("付款金額足夠");
+		} else {
+			System.out.println("付款金額不足");
+		}
+
 		System.out.printf("吉伊卡哇-小桃公仔 1 個 %d 元 付款 %,d 元, 應找 %d 元%n", tao, cash, change);
 
 		// 找 500
