@@ -26,11 +26,11 @@ public class Main10 {
 		// 判斷 level
 		if(score >= 90) {
 			System.out.println("得 A");
-		} else if(score >= 70 && score < 80) {
-			System.out.println("得 B");
-		} else if(score >= 60 && score < 70) {
-			System.out.println("得 C");
 		} else if(score >= 80 && score < 90) {
+			System.out.println("得 B");
+		} else if(score >= 70 && score < 80) {
+			System.out.println("得 C");
+		} else if(score >= 60 && score < 70) {
 			System.out.println("得 D");
 		} else {
 			System.out.println("得 F");
