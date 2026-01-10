@@ -25,6 +25,8 @@ public class Main9 {
 			System.out.println("付款金額足夠");
 		} else {
 			System.out.println("付款金額不足");
+			//return; // 此方法結束
+			System.exit(1); // 系統強迫結束
 		}
 
 		System.out.printf("吉伊卡哇-小桃公仔 1 個 %d 元 付款 %,d 元, 應找 %d 元%n", tao, cash, change);
