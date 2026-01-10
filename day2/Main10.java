@@ -29,9 +29,9 @@ public class Main10 {
 		} else if(score >= 70 && score < 80) {
 			System.out.println("得 C");
 		} else if(score >= 60 && score < 70) {
-			SysSystem.out.println("得 A");
+			System.out.println("得 A");
 		} else if(score >= 80 && score < 90) {
-			Stem.out.println("得 D");
+			System.out.println("得 D");
 		} else {
 			System.out.println("得 F");
 		}
