@@ -15,6 +15,18 @@ public class Main1 {
 		System.out.println(x + " * " + y + " = " + mul);
 		System.out.println(x + " / " + y + " = " + div);
 		System.out.println(x + " % " + y + " = " + mod);
+		/* 
+		 *-----------------------------------------------
+		 * 透過 printf 來印出內容 (jdk 1.4)               
+		 *-----------------------------------------------
+		*/
+		System.out.printf("%d + %d = %d%n", x, y, sum);
+		System.out.printf("%d - %d = %d%n", x, y, sub);
+		System.out.printf("%d * %d = %d%n", x, y, mul);
+		System.out.printf("%d / %d = %d%n", x, y, div);
+		System.out.printf("%d %% %d = %d%n", x, y, mod);
+
+
 	}
 
 }
