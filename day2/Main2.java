@@ -14,10 +14,11 @@ public class Main2 {
 		int doz  = 12; // 一打有幾瓶
 		int box  = 24; // 一箱有幾瓶
 		
-		// 買 10 箱要多少錢 ?
-		int sum = cola * box * 10;
+		// 買 ? 箱要多少錢 ?
+		int qty = 10; // 數量
+		int sum = cola * box * qty;
 		
-		System.out.printf("可樂一瓶 %d 元 買 10 箱共需 %d 元%n", cola, sum);
+		System.out.printf("可樂一瓶 %d 元 買 %d 箱共需 %d 元%n", cola, qty, sum);
 
 	}
 
