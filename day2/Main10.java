@@ -25,7 +25,7 @@ public class Main10 {
 
 		// 判斷 level
 		if(score >= 90) {
-			ystem.out.println("得 B");
+			System.out.println("得 B");
 		} else if(score >= 70 && score < 80) {
 			System.out.println("得 C");
 		} else if(score >= 60 && score < 70) {
