@@ -19,8 +19,24 @@ public class Main11 {
 			System.out.println("資料錯誤");
 		}
 
-
-
+		// 改用 switch-case
+		switch(col) {
+			case 1:
+			case 8:	
+				System.out.println("玩具一個");
+				break;
+			case 2:
+			case 3:
+			case 6:
+			case 7:
+				System.out.println("飲料一瓶");
+				break;
+			case 4:
+			case 5:
+				System.out.println("糖果一顆");
+				break;
+			default:
+				System.out.println("資料錯誤");	
+		}
 	}
-
 }
