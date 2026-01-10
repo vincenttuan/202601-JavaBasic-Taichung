@@ -6,11 +6,11 @@ public class Main4 {
 		/*
 		 * 可樂一瓶 20 元
 		 * 買一送一
-		 * 買 10 瓶要花多少元
+		 * 買 ? 瓶要花多少元
 		*/
 		int cola = 20; // 每瓶價格
-		int qty = 10;  // 要買的瓶數
-		int bottles = qty / 2; // 實際要支付的瓶數
+		int qty = 9;  // 要買的瓶數
+		int bottles = (qty / 2) + (qty % 2); // 實際要支付的瓶數
 
 		int sum = cola * bottles; // 實際要支付的錢 = cola * bottles
 
