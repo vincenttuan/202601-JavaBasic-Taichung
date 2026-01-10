@@ -9,8 +9,8 @@ public class Main6 {
 		*/
 		int cola = 20;
 		int qty = 10;
-		int x = 6; // 買 x 送 y
-		int y = 4; 
+		int x = 3; // 買 x 送 y
+		int y = 1; 
 
 		//int bottles = 3 * (qty / 4) + (qty % 4);
 		int bottles = x * (qty / (x+y)) + (qty % (x+y));
