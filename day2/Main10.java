@@ -17,17 +17,24 @@ public class Main10 {
 		System.out.printf("請輸入成績:");
 		int score = sc.nextInt();
 		
+		// 判斷 score 是否介於 0~100 之間 ?
+		if(score < 0 || score > 100) {
+			System.out.println("成績錯誤");
+			return;
+		}
+
 		// 判斷 level
 		if(score >= 90) {
-			System.out.println("得 A");
-		} else if(score >= 80 && score < 90) {
-			System.out.println("得 B");
+			ystem.out.println("得 B");
 		} else if(score >= 70 && score < 80) {
 			System.out.println("得 C");
 		} else if(score >= 60 && score < 70) {
-			System.out.println("得 D");
+			SysSystem.out.println("得 A");
+		} else if(score >= 80 && score < 90) {
+			Stem.out.println("得 D");
 		} else {
 			System.out.println("得 F");
 		}
+
 	}
 }
