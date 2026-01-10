@@ -38,10 +38,10 @@ public class Main8 {
 
 		System.out.printf("500元: %d 張%n", fiveHundred);
 		System.out.printf("100元: %d 張%n", oneHundred);
-		System.out.printf(" 50元: %d 張%n", fifty);
-		System.out.printf(" 10元: %d 張%n", ten);
-		System.out.printf("  5元: %d 張%n", five);
-		System.out.printf("  1元: %d 張%n", one);
+		System.out.printf(" 50元: %d 枚%n", fifty);
+		System.out.printf(" 10元: %d 枚%n", ten);
+		System.out.printf("  5元: %d 枚%n", five);
+		System.out.printf("  1元: %d 枚%n", one);
 	}
 
 }
