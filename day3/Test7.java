@@ -10,7 +10,8 @@ public class Test7 {
 		Random r = new Random();
 		Scanner sc = new Scanner(System.in);
 
-		int ans = 8;
+		//int ans = 8;
+		int ans = r.nextInt(9) + 1; // 1~9 隨機數
 
 		do {
 			System.out.printf("請輸入 1~9 數字 ==> ");
@@ -29,7 +30,6 @@ public class Test7 {
 		} while(true);
 
 		System.out.println("Game over !");
-
 	}
 
 }
